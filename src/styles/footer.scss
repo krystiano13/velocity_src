@@ -1,0 +1,17 @@
+footer {
+    width : 100vw;
+    height : 12vh;
+    background-color: #444;
+
+    display : flex;
+    justify-content: center;
+    align-items: center;
+
+    h6 {
+        color : white;
+        margin : 0;
+        text-align: center;
+        color : rgb(150, 149, 149);
+        font-size : 1.7vh;
+    }
+}

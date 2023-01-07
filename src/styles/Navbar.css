@@ -1,0 +1,66 @@
+.NavbarWrapper {
+  width: 100vw;
+  height: 7vh;
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (orientation: portrait) {
+  .NavbarWrapper {
+    justify-content: space-between;
+  }
+}
+.NavbarWrapper .NavbarTitle {
+  color: #5ea5e7;
+  font-weight: 300;
+  font-size: 2.75vh;
+  margin: 0;
+  display: block;
+  letter-spacing: 0.5vh;
+}
+@media screen and (orientation: portrait) {
+  .NavbarWrapper .NavbarTitle {
+    transform: translateX(5vw);
+  }
+}
+.NavbarWrapper .NavbarButtons {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (orientation: portrait) {
+  .NavbarWrapper .NavbarButtons {
+    width: 20%;
+    transform: translateX(-12vw);
+  }
+}
+.NavbarWrapper .NavbarButtons .NavbarButton {
+  font-weight: 400;
+  color: grey;
+  cursor: pointer;
+  font-size: 1.9vh;
+  display: block;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  transition: color 250ms;
+  will-change: color;
+}
+@media screen and (orientation: portrait) {
+  .NavbarWrapper .NavbarButtons .NavbarButton {
+    margin: 2vw;
+  }
+}
+.NavbarWrapper .NavbarButtons .NavbarButton:hover {
+  color: #5ea5e7;
+}
+.NavbarWrapper .NavbarButtons .choosed {
+  color: #448fd4;
+}
+
+.navlink {
+  text-decoration: none;
+}/*# sourceMappingURL=Navbar.css.map */

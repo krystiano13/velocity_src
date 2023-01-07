@@ -1,0 +1,108 @@
+.TabWrapper {
+  width: 100vw;
+  height: 130vh;
+  background-color: whitesmoke;
+  overflow: hidden;
+
+  @media screen and (orientation: portrait) {
+    height: 103vh;
+  }
+
+  .ButtonsArea {
+    width: 40vw;
+    height: auto;
+
+    margin-left: 30vw;
+    padding-top: 5vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media screen and (orientation: portrait) {
+      width: 90vw;
+      margin-left: 5vw;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
+    .TabButton {
+      cursor: pointer;
+      width: 25%;
+      height: 5vh;
+      color: white;
+      background-color: rgb(102, 125, 134);
+      border: none;
+      font-size: 1.6vh;
+      border-radius: 1vh;
+
+      @media screen and (orientation: portrait) {
+        width: 45%;
+        margin-top: 1.5vh;
+      }
+
+      transition: background-color 250ms;
+      will-change: background-color;
+    }
+
+    .ChoosenTab {
+      background-color: #4d8cc7;
+    }
+
+    .ChoosenTab:hover {
+      background-color: #4c97dd;
+    }
+
+    .TabButton:hover {
+      background-color: #4d8cc7;
+    }
+  }
+
+  .TabContentWrapper {
+    width: auto;
+    height: auto;
+
+    opacity: 1;
+
+    transition: opacity 300ms;
+    will-change: opacity;
+
+    .TabImage {
+      display: block;
+      width: 50vw;
+      margin-left: 25vw;
+      padding-top: 5vh;
+
+      @media screen and (orientation: portrait) {
+        width: 80vw;
+        margin-left: 10vw;
+      }
+    }
+
+    .diffMargin {
+      margin-top: 4vh;
+    }
+
+    .TabText {
+      text-align: center;
+      max-width: 35vw;
+      width: 35vw;
+      margin-left: 32.5vw;
+      margin-top: 3vh;
+      font-weight: 300;
+      font-size: 1.6vh;
+      color: #4e6172;
+
+      @media screen and (orientation: portrait) {
+        width: 90vw;
+        max-width : 90vw;
+        margin-left: 5vw;
+        font-size : 2vh;
+      }
+    }
+  }
+
+  .op {
+    opacity: 0;
+  }
+}

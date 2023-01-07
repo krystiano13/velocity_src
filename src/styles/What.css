@@ -1,0 +1,150 @@
+.WhatWrapper,
+.TabWrapper,
+.ContactFormWrapper {
+  width: 100vw;
+  height: 55vh;
+  overflow: hidden;
+}
+@media screen and (orientation: portrait) {
+  .WhatWrapper,
+.TabWrapper,
+.ContactFormWrapper {
+    height: 145vh;
+  }
+}
+.WhatWrapper .WhatTitle,
+.TabWrapper .WhatTitle,
+.ContactFormWrapper .WhatTitle {
+  text-align: center;
+  font-weight: 300;
+  color: #666;
+  font-size: 3.2vh;
+  letter-spacing: 0.5vh;
+  margin: 0;
+  margin-top: 8vh;
+}
+.WhatWrapper .WhatSubtitle,
+.TabWrapper .WhatSubtitle,
+.ContactFormWrapper .WhatSubtitle {
+  margin: 0;
+  text-align: center;
+  color: gray;
+  font-size: 2.4vh;
+  font-weight: 300;
+  letter-spacing: 0.35vh;
+  margin-top: 1.5vh;
+}
+.WhatWrapper .BlockWrapper,
+.TabWrapper .BlockWrapper,
+.ContactFormWrapper .BlockWrapper {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 4vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (orientation: portrait) {
+  .WhatWrapper .BlockWrapper,
+.TabWrapper .BlockWrapper,
+.ContactFormWrapper .BlockWrapper {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0%;
+    height: 120vh;
+  }
+}
+.WhatWrapper .BlockWrapper .Block,
+.TabWrapper .BlockWrapper .Block,
+.ContactFormWrapper .BlockWrapper .Block {
+  display: block;
+  width: 16vw;
+  height: 30vh;
+  border: solid rgba(180, 210, 224, 0.7) 0.1vh;
+  border-radius: 2vh;
+}
+@media screen and (orientation: portrait) {
+  .WhatWrapper .BlockWrapper .Block,
+.TabWrapper .BlockWrapper .Block,
+.ContactFormWrapper .BlockWrapper .Block {
+    width: 85vw;
+    height: 35vh;
+  }
+}
+.WhatWrapper .BlockWrapper .Block .BlockTitle,
+.TabWrapper .BlockWrapper .Block .BlockTitle,
+.ContactFormWrapper .BlockWrapper .Block .BlockTitle {
+  text-align: center;
+  font-size: 2.6vh;
+  color: #666;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 1vh;
+  letter-spacing: 0.25vh;
+}
+.WhatWrapper .BlockWrapper .Block .BlockDescription,
+.TabWrapper .BlockWrapper .Block .BlockDescription,
+.ContactFormWrapper .BlockWrapper .Block .BlockDescription {
+  text-align: center;
+  color: gray;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.7vh;
+  margin-top: 1vh;
+}
+.WhatWrapper .BlockWrapper .Block .Container,
+.TabWrapper .BlockWrapper .Block .Container,
+.ContactFormWrapper .BlockWrapper .Block .Container {
+  width: 4.5vw;
+  height: 4.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #5aa5ec 0.1vh;
+  border-radius: 100%;
+  margin-left: 5.75vw;
+  margin-top: 3vh;
+}
+@media screen and (orientation: portrait) {
+  .WhatWrapper .BlockWrapper .Block .Container,
+.TabWrapper .BlockWrapper .Block .Container,
+.ContactFormWrapper .BlockWrapper .Block .Container {
+    width: 30vw;
+    height: 30vw;
+    margin-left: 27.5vw;
+    border: solid #5aa5ec 0.2vh;
+  }
+}
+.WhatWrapper .BlockWrapper .Block .Container .SvgContainer,
+.TabWrapper .BlockWrapper .Block .Container .SvgContainer,
+.ContactFormWrapper .BlockWrapper .Block .Container .SvgContainer {
+  width: 3.6vw;
+  height: 3.6vw;
+  background-color: #5aa5ec;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (orientation: portrait) {
+  .WhatWrapper .BlockWrapper .Block .Container .SvgContainer,
+.TabWrapper .BlockWrapper .Block .Container .SvgContainer,
+.ContactFormWrapper .BlockWrapper .Block .Container .SvgContainer {
+    width: 26vw;
+    height: 26vw;
+  }
+}
+.WhatWrapper .BlockWrapper .Block .Container .SvgContainer svg,
+.TabWrapper .BlockWrapper .Block .Container .SvgContainer svg,
+.ContactFormWrapper .BlockWrapper .Block .Container .SvgContainer svg {
+  width: 1.7vw;
+  height: 1.7vw;
+}
+@media screen and (orientation: portrait) {
+  .WhatWrapper .BlockWrapper .Block .Container .SvgContainer svg,
+.TabWrapper .BlockWrapper .Block .Container .SvgContainer svg,
+.ContactFormWrapper .BlockWrapper .Block .Container .SvgContainer svg {
+    width: 12vw;
+    height: 12vw;
+  }
+}/*# sourceMappingURL=What.css.map */

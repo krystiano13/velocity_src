@@ -1,0 +1,82 @@
+.HeroWrapper {
+  width: 100vw;
+  height: 60vh;
+  overflow-x: hidden;
+  background: linear-gradient(rgba(29, 132, 228, 0.4), rgba(29, 132, 228, 0.4)), url("../images/HeroImage.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid #5aa5ec 0.75vh;
+}
+.HeroWrapper .HeroTitle {
+  color: white;
+  text-align: center;
+  font-size: 6.25vh;
+  margin: 0;
+  letter-spacing: 0.35vh;
+  font-weight: 300;
+  display: block;
+}
+.HeroWrapper .HeroSubtitle {
+  color: #5ea5e7;
+  text-align: center;
+  font-size: 3.5vh;
+  margin: 0;
+  letter-spacing: 0.35vh;
+  font-weight: 300;
+  display: block;
+  margin-top: 2vh;
+  margin-bottom: 3vh;
+}
+.HeroWrapper .HeroButtonsWrapper {
+  width: 20vw;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (orientation: portrait) {
+  .HeroWrapper .HeroButtonsWrapper {
+    width: 90vw;
+  }
+}
+.HeroWrapper .HeroButtonsWrapper .HeroButton {
+  width: 7vw;
+  height: 4.5vh;
+  font-size: 1.7vh;
+  font-weight: 300;
+  color: white;
+  cursor: pointer;
+  background-color: #5aa5ec;
+  border: none;
+  border-radius: 0.75vh;
+}
+@media screen and (orientation: portrait) {
+  .HeroWrapper .HeroButtonsWrapper .HeroButton {
+    width: 40vw;
+    height: 6vh;
+  }
+}
+.HeroWrapper .HeroButtonsWrapper .EmptyHeroButton {
+  width: 7vw;
+  height: 4.5vh;
+  font-size: 1.7vh;
+  font-weight: 300;
+  color: white;
+  cursor: pointer;
+  background-color: #5aa5ec;
+  border: none;
+  border-radius: 0.75vh;
+  background-color: transparent;
+  border: solid white 0.1vh;
+  width: 9vw;
+}
+@media screen and (orientation: portrait) {
+  .HeroWrapper .HeroButtonsWrapper .EmptyHeroButton {
+    width: 40vw;
+    height: 6vh;
+  }
+}/*# sourceMappingURL=Hero.css.map */

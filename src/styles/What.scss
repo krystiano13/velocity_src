@@ -1,0 +1,124 @@
+.WhatWrapper,
+.TabWrapper,
+.ContactFormWrapper {
+  width: 100vw;
+  height: 55vh;
+  overflow: hidden;
+
+  @media screen and (orientation: portrait) {
+    height: 145vh;
+  }
+
+  .WhatTitle {
+    text-align: center;
+    font-weight: 300;
+    color: #666;
+    font-size: 3.2vh;
+    letter-spacing: 0.5vh;
+    margin: 0;
+    margin-top: 8vh;
+  }
+
+  .WhatSubtitle {
+    margin: 0;
+    text-align: center;
+    color: gray;
+    font-size: 2.4vh;
+    font-weight: 300;
+    letter-spacing: 0.35vh;
+    margin-top: 1.5vh;
+  }
+
+  .BlockWrapper {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media screen and (orientation: portrait) {
+      flex-direction: column;
+      width: 100%;
+      margin-left: 0%;
+      height: 120vh;
+    }
+
+    .Block {
+      display: block;
+      width: 16vw;
+      height: 30vh;
+      border: solid rgb(180, 210, 224, 0.7) 0.1vh;
+      border-radius: 2vh;
+
+      @media screen and (orientation: portrait) {
+        width: 85vw;
+        height: 35vh;
+      }
+
+      .BlockTitle {
+        text-align: center;
+        font-size: 2.6vh;
+        color: #666;
+        font-weight: 300;
+        margin: 0;
+        margin-top: 1vh;
+        letter-spacing: 0.25vh;
+      }
+
+      .BlockDescription {
+        text-align: center;
+        color: gray;
+        font-weight: 300;
+        margin: 0;
+        font-size: 1.7vh;
+        margin-top: 1vh;
+      }
+
+      .Container {
+        width: 4.5vw;
+        height: 4.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid #5aa5ec 0.1vh;
+        border-radius: 100%;
+        margin-left: 5.75vw;
+        margin-top: 3vh;
+
+        @media screen and (orientation: portrait) {
+          width: 30vw;
+          height: 30vw;
+          margin-left: 27.5vw;
+          border: solid #5aa5ec 0.2vh;
+        }
+
+        .SvgContainer {
+          width: 3.6vw;
+          height: 3.6vw;
+          background-color: #5aa5ec;
+          border-radius: 100%;
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          @media screen and (orientation: portrait) {
+            width: 26vw;
+            height: 26vw;
+          }
+
+          svg {
+            width: 1.7vw;
+            height: 1.7vw;
+
+            @media screen and (orientation: portrait) {
+              width: 12vw;
+              height: 12vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.AboutWrapper {
+  width: 100vw;
+  height: 35vh;
+  background-color: rgb(219, 228, 231);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+@media screen and (orientation: portrait) {
+  .AboutWrapper {
+    height: 105vh;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+.AboutWrapper .AboutElement {
+  width: auto;
+  height: 75%;
+  padding: 3vh;
+}
+@media screen and (orientation: portrait) {
+  .AboutWrapper .AboutElement {
+    width: 95vw;
+  }
+}
+.AboutWrapper .AboutElement .AboutTitle {
+  font-weight: 300;
+  margin: 0;
+  font-size: 2.25vh;
+  color: #666666;
+  letter-spacing: 0.5vh;
+  height: 5vh;
+}
+.AboutWrapper .AboutElement .AboutParagraph {
+  width: 20vw;
+  max-width: 20vw;
+  margin-top: 1.5vh;
+  color: rgb(106, 123, 134);
+}
+@media screen and (orientation: portrait) {
+  .AboutWrapper .AboutElement .AboutParagraph {
+    width: 85vw;
+    max-width: 85vw;
+  }
+}
+.AboutWrapper .AboutElement .AboutBtnWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+@media screen and (orientation: portrait) {
+  .AboutWrapper .AboutElement .AboutBtnWrapper {
+    width: 85vw;
+    max-width: 85vw;
+  }
+}
+.AboutWrapper .AboutElement .AboutBtnWrapper button {
+  height: 4vh;
+  border: none;
+  background-color: transparent;
+  color: rgb(78, 125, 139);
+  text-align: left;
+  border-bottom: solid rgb(180, 180, 180) 0.1vh;
+  font-size: 1.4vh;
+  cursor: pointer;
+  transition: color 250ms;
+  will-change: color;
+  display: flex;
+  align-items: center;
+}
+@media screen and (orientation: portrait) {
+  .AboutWrapper .AboutElement .AboutBtnWrapper button {
+    font-size: 1.7vh;
+    border-bottom: solid rgb(180, 180, 180) 0.2vh;
+  }
+}
+.AboutWrapper .AboutElement .AboutBtnWrapper button img {
+  width: 2vh;
+  height: 2vh;
+  margin-right: 1vh;
+}
+.AboutWrapper .AboutElement .AboutBtnWrapper button:hover {
+  color: #5aa5ec;
+}/*# sourceMappingURL=about.css.map */
